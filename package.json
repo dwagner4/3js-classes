@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dwagner4/3js-classes/issues"
   },
-  "homepage": "https://github.com/dwagner4/3js-classes#readme"
+  "homepage": "https://github.com/dwagner4/3js-classes#readme",
+  "publishConfig": {
+    "@dwagner4/registry": "https://npm.pkg.github.com"
+  }
 }
