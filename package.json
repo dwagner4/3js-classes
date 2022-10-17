@@ -1,6 +1,6 @@
 {
   "name": "@dwagner4/3js-classes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,15 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dwagner4/3js-classes.git"
+    "url": "https://github.com/dwagner4/3js-classes.git"
   },
-  "author": "dean@dfwagners.net",
+  "author": {
+    "name": "Dean Wagner",
+    "email": "dean@dfwagners.net"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dwagner4/3js-classes/issues"
   },
   "homepage": "https://github.com/dwagner4/3js-classes#readme",
   "publishConfig": {
-    "@dwagner4/registry": "https://npm.pkg.github.com"
+    "@dwagner4/registry": "https://github.com/dwagner4/3js-classes"
+  },
+  "dependencies": {
+    "three": "^0.145.0"
   }
 }
